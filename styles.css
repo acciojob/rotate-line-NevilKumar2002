@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
 /* styles.css */
-.container {
+/* .container {
     width: 200px;
     height: 200px;
     position: relative;
     margin: 100px auto;
-}
+} */
 
 .line {
     width: 200px;
@@ -15,9 +15,9 @@
     left: 50%;
     top: 50%;
     transform-origin: center ;
-    animation: rotateLine 4s linear infinite;
+/*     animation: rotateLine 4s linear infinite; */
 }
-
+/* 
 @keyframes rotateLine {
     0% {
         transform: translateX(-50%) rotate(0deg);
@@ -25,4 +25,4 @@
     100% {
         transform: translateX(-50%) rotate(360deg);
     }
-}
+} */

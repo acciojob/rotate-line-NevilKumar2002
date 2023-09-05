@@ -11,3 +11,13 @@
 //     }
 //     animationRunning = !animationRunning;
 // });
+const line = document.getElementById('line');
+let angle = 0;
+
+function rotateLine() {
+    angle += 2; // Rotate by 2 degrees
+    line.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
+}
+
+setInterval(rotateLine, 20);
+
